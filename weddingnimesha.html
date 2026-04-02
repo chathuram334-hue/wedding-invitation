@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation | Viraj & Dilki</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+Sinhala:wght@300;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --cream: #FBF3D1;
+            --sage-green: #408A71;
+            --dark-green: #285A48;
+            --gold-accent: #09637E;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Noto Sans Sinhala', sans-serif;
+            color: var(--dark-green);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header { padding: 50px 0 20px; }
+
+        .main-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 8.2rem;
+            color: var(--sage-green);
+            margin: 10px 0;
+        }
+
+        .sub-text {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--gold-accent);
+        }
+
+        .card {
+            background: rgb(235, 244, 246); 
+            backdrop-filter: blur(1px);
+            padding: 40px 20px;
+            border-radius: 60px 60px 20px 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin-top: 10px;
+        }
+
+        .name-block { margin: 25px 0; }
+        .name-block h3 { 
+            font-size: 1.5rem; 
+            color: var(--sage-green);
+            font-weight: 700;
+            margin: 8px 0;
+        }
+        .parents { font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0; }
+
+        /* CENTERED WITH & RINGS */
+        .with-separator {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .with-text {
+            font-size: 2.6rem;
+            color: FFD400;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .rings-img { width: 80px; height: auto; margin-top: 10px; }
+
+        /* MINIMALIST LINE COUNTDOWN */
+        .countdown-wrapper {
+            margin: 35px 0;
+            padding: 20px 0;
+            border-top: 1px solid var(--gold-accent); /* Single Gold Line Top */
+            border-bottom: 1px solid var(--gold-accent); /* Single Gold Line Bottom */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .timer-unit {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .timer-unit span {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--sage-green);
+            line-height: 1;
+        }
+
+        .timer-unit label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--gold-accent);
+            margin-top: 5px;
+        }
+
+        .event-info {
+            background: #f9fbf2;
+            padding: 20px;
+            border-radius: 25px;
+            margin: 25px 0;
+            border: 1px solid rgba(112, 130, 56, 0.1);
+        }
+
+        .info-row { margin: 8px 0; font-weight: 700; font-size: 1.05rem; }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            background: var(--sage-green);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 25px;
+            box-shadow: 0 5px 15px rgba(112, 130, 56, 0.3);
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-bottom: 50px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        @media (max-width: 480px) {
+            .main-title { font-size: 2.8rem; }
+            .timer-unit span { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="animate__animated animate__fadeIn">
+            <p class="sub-text">ශ්‍රී සුබ මංගලම්</p>
+            
+            <p style="font-style: italic; opacity: 0.8;">"මුළු ජීවිතයම එකට බෙදාගන්නට..."</p>
+	<h1 class="main-title">Viraj & Dilki</h1>
+        </header>
+
+        <div class="card animate__animated animate__fadeInUp">
+            
+           <div class="name-block">
+                <p class="parents"><i>එස්. ඒ. වීරරත්න බණ්ඩාර මහතා සහ <br> පී. ජී. කාන්ති පුෂ්පලතා මහත්මියගේ ආදරණීය පුතනුවන්</i></p>
+                <h3 font-style: italic;>එස්. ඒ. විරාජ් බණ්ඩාර</h3>
+            </div>
+
+            <div class="with-separator">
+                <img src="2.png" alt="Wedding Rings" class="rings-img">
+            </div>
+
+            <div class="name-block">
+                <p class="parents"><i>ඩී. එම්. විජේවර්ධන මහතා සහ <br> කේ. ඒ. චන්ද්‍රාවතී මහත්මියගේ ආදරණීය දියණිය</i></p>
+                <h3>ඩී. එම්. දිල්කි නිමේෂා</h3>
+ <div class="with-separator">
+                <div class="with-text">සමග </div>
+             
+            </div>
+                <p class="parents" style="margin-top:10px;"><i> අතිනත ගැනීමේ ප්‍රීතිය නිමිත්තෙන්</i></p>
+            </div>
+
+            <div class="event-info">
+                <div class="info-row"> 2026 අප්‍රේල් 23 වනදා</div>
+                <div class="info-row"> පෙ.ව 9.30 - ප.ව 4.00</div>
+                <div class="info-row" style="font-size: 0.95rem;"> Grand Glamora Luxury Banquet, Ampara</div>
+            </div>
+
+            <p class="parents" style="font-style: italic;">
+                පැවැත්වෙන ප්‍රිය සම්භාෂණයට සහභාගි වන මෙන් <br> 
+                ඔබට / ඔබ දෙපලට / ඔබ සැමට <br>
+	<p class="sub-text">කෙරෙන ගෞරවණීය ඇරයුමයි</p>
+            </p>
+
+            <div class="countdown-wrapper">
+                <div class="timer-unit">
+                    <span id="days">00</span>
+                    <label>Days</label>
+                </div>
+                <div class="timer-unit">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+                <div class="timer-unit">
+                    <span id="mins">00</span>
+                    <label>Mins</label>
+                </div>
+                <div class="timer-unit">
+                    <span id="secs">00</span>
+                    <label>Secs</label>
+                </div>
+            </div>
+
+            <a href="https://maps.app.goo.gl/iYH5oEzoUYqo7TNF9" class="btn">View Location on Map</a>
+            
+            <div class="footer">
+                <p>සතුට බෙදාගන්න අප හා එක්වන්න.</p>
+                <div style="margin-top: 15px; font-weight: bold; color: var(--sage-green);">
+                     0740186718 | 0711287558
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const weddingDate = new Date("April 23, 2026 09:30:00").getTime();
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const gap = weddingDate - now;
+            const second = 1000, minute = second * 60, hour = minute * 60, day = hour * 24;
+            document.getElementById('days').innerText = Math.max(0, Math.floor(gap / day));
+            document.getElementById('hours').innerText = Math.max(0, Math.floor((gap % day) / hour));
+            document.getElementById('mins').innerText = Math.max(0, Math.floor((gap % hour) / minute));
+            document.getElementById('secs').innerText = Math.max(0, Math.floor((gap % minute) / second));
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
